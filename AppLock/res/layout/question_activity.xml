@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#F2F2F7" 
+     android:clickable="true">
+
+    <LinearLayout
+        android:id="@+id/titlebar"
+        android:layout_width="fill_parent"
+        android:layout_height="42dp"
+        android:background="@drawable/header_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+        
+        <ImageButton
+        android:id="@+id/back"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:background="#3ec0ef"
+        android:clickable="true"
+        android:scaleType="centerInside"
+        android:src="@drawable/back_icon_bg" />
+
+        <ImageView
+            android:id="@+id/bar_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/bar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/common_white"
+            android:textSize="18dp"
+            android:text="@string/app_name" />
+
+    </LinearLayout>
+    
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/titlebar"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:text="选择密保问题:" />
+
+    <RelativeLayout
+        android:id="@+id/choose_question_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="36dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/textView1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp" 
+        android:descendantFocusability="blocksDescendants"
+        android:clickable="true">
+
+        <TextView
+            android:id="@+id/text_question"
+            android:layout_width="fill_parent"
+            android:layout_height="36dp"
+            android:background="@drawable/setbar_bg"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dp"
+            android:clickable="true"
+            android:text="我生日是哪一天？" />
+
+        <ImageView
+            android:id="@+id/btn_pop"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_alignParentRight="true"
+            android:clickable="true"
+            android:src="@drawable/ic_finish" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/answer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+        android:layout_below="@+id/choose_question_layout"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="密保答案：" />
+    
+    <EditText
+        android:id="@+id/edit_answer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/answer"
+        android:textSize="14sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:ems="8" 
+        android:singleLine="true"  
+        
+        android:hint="请输入..."  >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/btn_finish"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="54dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:textSize="14sp"
+        android:background="@drawable/button_bg"
+        android:text="完成" />
+
+</RelativeLayout>

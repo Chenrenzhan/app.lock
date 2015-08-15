@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="question">
+        <item>我生日是哪一天？</item>
+        <item>爸爸生日是哪一天？</item>
+        <item>妈妈生日是哪一天？</item>
+        <item>小学班主任名字？</item>
+        <item>初中班主任名字？</item>
+        <item>高中班主任名字？</item>
+        <item>我最喜欢的水果？</item>
+        <item>我最喜欢的颜色是？</item>
+        <item>我最喜欢的明星是？</item>
+        <item>我最喜欢的歌曲是？</item>
+    </string-array>
+</resources>

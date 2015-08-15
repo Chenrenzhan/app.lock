@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.applock.MainActivity" >
+
+    <item
+        android:id="@+id/menu_foeget_psw"
+        android:orderInCategory="100"
+        android:title="@string/str_forget_psw"
+        app:showAsAction="never"/>
+    
+    <item
+        android:id="@+id/menu_change_psw"
+        android:orderInCategory="100"
+        android:title="@string/str_change_psw"
+        app:showAsAction="never"/>
+    
+    <item
+        android:id="@+id/menu_change_question"
+        android:orderInCategory="100"
+        android:title="@string/str_change_question"
+        app:showAsAction="never"/>
+
+</menu>

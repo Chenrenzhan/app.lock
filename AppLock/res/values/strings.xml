@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">应用锁</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="tab_unlock">未加锁()</string>
+    <string name="tab_lock">已加锁()</string>
+    
+    <string name="title">应用锁</string>
+    <string name="tip">请绘制图形密码</string>
+    <string name="str_forget_psw"><u>忘记密码</u></string>
+    <string name="str_change_psw"><u>修改密码</u></string>
+    <string name="str_change_question"><u>修改密保</u></string>
+
+</resources>
